@@ -8,7 +8,7 @@ Una aplicación web para gestionar recetas de cocina personalizadas, desarrollad
 - **Sistema de usuarios**: Registro, login y sesiones seguras
 - **Categorización**: Organiza recetas por categorías (Desayunos, Almuerzos, Postres, etc.)
 - **Subida de imágenes**: Añade fotos a tus recetas
-- **Búsqueda y filtrado**: Encuentra recetas por nombre, ingredientes o categoría
+- **Búsqueda y filtrado**: Encuentra recetas por nombre, ingredientes, preparación o categoría
 - **Exploración social**: Descubre recetas de otros usuarios
 - **Interfaz responsive**: Funciona perfectamente en dispositivos móviles y escritorio
 - **Arrastrar y soltar**: Reordena tus recetas fácilmente
@@ -132,7 +132,7 @@ mi-recetario-online/
 - Contraseñas hasheadas con algoritmo bcrypt
 
 ### Gestión de Recetas
-- **Crear**: Formulario completo con nombre, ingredientes, preparación, tiempo y imagen
+- **Crear**: Formulario completo con nombre, ingredientes, preparación, tiempo e imagen
 - **Editar**: Modificar todos los campos incluyendo categorías
 - **Eliminar**: Con confirmación modal para evitar borrados accidentales
 - **Visualizar**: Vista detallada con formato legible
@@ -214,15 +214,6 @@ $pass = $_ENV['DB_PASS'] ?? '';
 - **CSRF**: Validación de sesiones en operaciones críticas
 - **Validación de archivos**: Tipo y tamaño verificados antes de subir
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
 
 ## 📝 Licencia
 
