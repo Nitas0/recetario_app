@@ -1,5 +1,34 @@
 <?php
-// includes/header.php
+/**
+ * header.php
+ *
+ * Este archivo genera la cabecera HTML común para todas las páginas de la aplicación.
+ * Se encarga de iniciar la sesión, definir la estructura del <head> y mostrar
+ * la barra de navegación principal.
+ *
+ * Lógica principal:
+ * 1. Inicio de Sesión: Comprueba si ya existe una sesión activa con session_status()
+ *    y, si no, la inicia con session_start(). Esto es crucial para acceder a $_SESSION.
+ * 2. Verificación de Login: Se establece la variable $is_logged_in a true o false
+ *    comprobando si $_SESSION['user_id'] está definido. Esta variable controla qué
+ *    enlaces se muestran en la navegación.
+ * 3. Sección <head>:
+ *    - Define el charset, viewport y el título de la página (que puede ser
+ *      personalizado a través de la variable $page_title).
+ *    - Incluye todos los enlaces para los favicons y el manifiesto web.
+ *    - Enlaza la hoja de estilos principal (style.css).
+ *    - Importa las fuentes de Google Fonts (Poppins y Pacifico).
+ * 4. Barra de Navegación (<header>):
+ *    - Muestra el logo de la aplicación, que enlaza a la página de inicio.
+ *    - Contiene un menú de navegación <nav> cuyo contenido es dinámico:
+ *      - Si el usuario ha iniciado sesión ($is_logged_in es true), muestra enlaces a
+ *        "Mis Recetas", "Explorar", "Añadir Receta" y "Cerrar Sesión".
+ *      - Si el usuario no ha iniciado sesión, muestra enlaces para "Login" y "Registrarse".
+ * 5. Apertura de <main>: Abre la etiqueta <main class="main-content">, que será cerrada
+ *    en el archivo footer.php. Todo el contenido específico de la página debe ir dentro
+ *    de esta etiqueta.
+ */
+
 // Inicia la sesión si no está ya iniciada, para poder acceder a las variables de sesión.
 if (session_status() === PHP_SESSION_NONE) {
     session_start();

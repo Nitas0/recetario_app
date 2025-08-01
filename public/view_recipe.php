@@ -1,8 +1,45 @@
 <?php
+/**
+ * view_recipe.php
+ *
+ * Esta página muestra el detalle completo de una receta específica. Es accesible tanto
+ * desde el dashboard del usuario (para sus propias recetas) como desde la página de
+ * exploración (para recetas de otros).
+ *
+ * Lógica principal:
+ * 1.  Configuración y Seguridad:
+ *     - Inicia la sesión, incluye `header.php` y `db_connect.php`.
+ *     - Protege la página para que solo usuarios autenticados puedan acceder.
+ * 2.  Determinación del Modo (Normal vs. Exploración):
+ *     - Comprueba si existe el parámetro `explore=1` en la URL (`$_GET`).
+ *     - La variable `$is_explore_mode` se establece a `true` o `false` y controla
+ *       la lógica de consulta y la visualización de botones.
+ * 3.  Carga de la Receta:
+ *     - Valida que se haya proporcionado un `id` numérico en la URL.
+ *     - Si está en modo exploración (`$is_explore_mode` es `true`):
+ *       - Realiza una consulta que une `recetas` y `usuarios` para obtener los
+ *         detalles de la receta y el nombre del autor. No hay restricción de `id_usuario`.
+ *     - Si está en modo normal (`$is_explore_mode` es `false`):
+ *       - Realiza una consulta que busca la receta por su `id` Y por el `id_usuario`
+ *         de la sesión. Esto asegura que el usuario solo pueda ver los detalles de
+ *         sus propias recetas a través de esta vía.
+ *     - Si la receta no se encuentra, redirige al dashboard con un mensaje de error.
+ * 4.  Visualización de Detalles (HTML):
+ *     - Muestra el nombre de la receta, la imagen a tamaño completo, el autor (si aplica),
+ *       el tiempo de preparación y la fecha de creación.
+ *     - Utiliza `nl2br(htmlspecialchars(...))` para mostrar los ingredientes y la
+ *       preparación, respetando los saltos de línea y previniendo XSS.
+ * 5.  Botones de Acción Dinámicos:
+ *     - Los botones de "Editar" y "Eliminar" solo se muestran si el usuario es el
+ *       propietario de la receta (`$recipe['id_usuario'] == $user_id`) Y no está
+ *       en modo exploración.
+ *     - El botón de "Volver" es contextual: si se vino desde la exploración, enlaza
+ *       a `explore_recipes.php`; de lo contrario, enlaza a `dashboard.php`.
+ */
+
 $page_title = "Ver Receta";
 require_once '../includes/header.php';
 
-// public/view_recipe.php
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }

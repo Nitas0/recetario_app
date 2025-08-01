@@ -1,5 +1,32 @@
 <?php
-// public/alter_table.php
+/**
+ * alter_table.php
+ *
+ * Este es un script de mantenimiento de uso único, diseñado para modificar la
+ * estructura de la tabla `recetas` en la base de datos. Su propósito específico
+ * es añadir la columna `imagen_url` para almacenar la ruta de las imágenes
+ * asociadas a cada receta.
+ *
+ * IMPORTANTE: Este archivo debe ser eliminado del servidor inmediatamente después
+ * de su ejecución para evitar riesgos de seguridad.
+ *
+ * Lógica principal:
+ * 1.  Inclusión de Conexión: Incluye `db_connect.php` para establecer la conexión
+ *     con la base de datos.
+ * 2.  Ejecución de Consulta SQL:
+ *     a. Define una consulta `ALTER TABLE` para añadir la columna `imagen_url` de tipo
+ *        VARCHAR(255), permitiendo valores nulos (NULL).
+ *     b. Ejecuta la consulta usando `$pdo->exec()`.
+ * 3.  Manejo de Errores (try-catch):
+ *     a. Si la consulta se ejecuta con éxito, muestra un mensaje de confirmación.
+ *     b. Si se produce una `PDOException`, comprueba el código de error:
+ *        - Si el código es '42S21', significa que la columna ya existe. En este caso,
+ *          informa al usuario que no se realizaron cambios.
+ *        - Para cualquier otro error, muestra un mensaje de error genérico y registra
+ *          el error real en el log del servidor para depuración.
+ * 4.  Mensaje de Seguridad: Al final, muestra un mensaje destacado recordando al
+ *     administrador que elimine el archivo por razones de seguridad.
+ */
 
 // --- SCRIPT DE USO ÚNICO PARA MODIFICAR LA BASE DE DATOS ---
 

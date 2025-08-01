@@ -1,5 +1,40 @@
 <?php
-// public/register_process.php
+/**
+ * register_process.php
+ *
+ * Este script maneja la lógica de registro de un nuevo usuario. No tiene interfaz
+ * de usuario y se encarga de validar los datos recibidos del formulario de registro,
+ * comprobar si el usuario ya existe y, si todo es correcto, crearlo en la base de datos.
+ *
+ * Lógica principal:
+ * 1.  Inicio de Sesión y Conexión a BD: Inicia la sesión y establece la conexión
+ *     con la base de datos.
+ * 2.  Verificación del Método: Asegura que la solicitud sea de tipo POST.
+ * 3.  Recogida de Datos: Obtiene el nombre de usuario, email y contraseñas del `$_POST`.
+ * 4.  Validación del Lado del Servidor:
+ *     - Comprueba que todos los campos obligatorios estén completos.
+ *     - Valida que el email tenga un formato correcto usando `filter_var`.
+ *     - Verifica que la contraseña tenga la longitud mínima requerida (8 caracteres).
+ *     - Confirma que las dos contraseñas introducidas coincidan.
+ *     - Si hay algún error de validación, se almacena en un array y se redirige
+ *       de vuelta al formulario de registro para mostrar los errores.
+ * 5.  Verificación de Duplicados en la Base de Datos:
+ *     - Realiza una consulta para contar cuántos usuarios existen con el mismo nombre de usuario.
+ *     - Realiza otra consulta para contar cuántos usuarios existen con el mismo email.
+ *     - Si se encuentra algún duplicado, se añade el error correspondiente y se redirige.
+ * 6.  Creación del Usuario:
+ *     - Si todas las validaciones son correctas, hashea la contraseña con `password_hash()`
+ *       y `PASSWORD_DEFAULT`. Esto es crucial para la seguridad, nunca se deben guardar
+ *       contraseñas en texto plano.
+ *     - Prepara una consulta `INSERT` para añadir el nuevo usuario a la tabla `usuarios`.
+ *     - Ejecuta la consulta con los datos validados y la contraseña hasheada.
+ * 7.  Redirección Final:
+ *     - Si el usuario se crea con éxito, guarda un mensaje de éxito en la sesión y
+ *       redirige al usuario a la página de login (`index.php`) para que pueda iniciar sesión.
+ * 8.  Manejo de Errores: Si ocurre una excepción PDO, se registra el error y se redirige
+ *     al formulario de registro con un mensaje de error genérico.
+ */
+
 session_start();
 require_once '../includes/db_connect.php'; // Incluye la conexión a la base de datos
 

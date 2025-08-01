@@ -1,3 +1,50 @@
+/**
+ * recetario_db.sql
+ *
+ * Este archivo SQL contiene el volcado completo de la base de datos `recetario_db`.
+ * Se utiliza para la configuración inicial del sistema, creando las tablas necesarias,
+ * insertando datos iniciales (como las categorías) y definiendo las relaciones
+ * entre las tablas.
+ *
+ * --- ESTRUCTURA DE LA BASE DE DATOS ---
+ *
+ * 1.  Tabla `usuarios`:
+ *     - Almacena la información de los usuarios registrados.
+ *     - Campos: `id_usuario` (PK), `nombre_usuario` (único), `email` (único), `contrasena` (hasheada), `fecha_registro`.
+ *
+ * 2.  Tabla `categorias`:
+ *     - Almacena las diferentes categorías a las que puede pertenecer una receta.
+ *     - Campos: `id_categoria` (PK), `nombre_categoria` (único).
+ *     - Contiene datos iniciales como "Desayunos", "Almuerzos", "Postres", etc.
+ *
+ * 3.  Tabla `recetas`:
+ *     - Es la tabla principal, almacena los detalles de cada receta.
+ *     - Campos: `id_receta` (PK), `id_usuario` (FK a `usuarios`), `nombre_receta`,
+ *       `ingredientes`, `preparacion`, `tiempo_preparacion_minutos`, `fecha_creacion`,
+ *       `imagen_url` (ruta a la imagen).
+ *     - Tiene una clave foránea (`id_usuario`) que se relaciona con la tabla `usuarios`.
+ *       La opción `ON DELETE CASCADE` asegura que si un usuario es eliminado, todas sus
+ *       recetas también se eliminarán automáticamente.
+ *
+ * 4.  Tabla `recetas_categorias` (Tabla Pivot):
+ *     - Gestiona la relación de muchos a muchos entre recetas y categorías. Una receta
+ *       puede tener múltiples categorías y una categoría puede tener múltiples recetas.
+ *     - Campos: `id_receta` (FK a `recetas`), `id_categoria` (FK a `categorias`).
+ *     - La clave primaria es compuesta (`id_receta`, `id_categoria`) para asegurar que
+ *       una receta solo pueda estar asociada a una categoría una vez.
+ *     - También utiliza `ON DELETE CASCADE` para que las asociaciones se eliminen si
+ *       se borra una receta o una categoría.
+ *
+ * --- ÍNDICES ---
+ * Se definen claves primarias (PRIMARY KEY) para la identificación única de filas y
+ * claves únicas (UNIQUE KEY) para campos como `nombre_usuario` y `email` para evitar
+ * duplicados. También se crean índices en las claves foráneas para optimizar el
+ * rendimiento de las consultas que involucran `JOINs`.
+ *
+ * --- AUTO_INCREMENT ---
+ * Se configura `AUTO_INCREMENT` para las claves primarias, de modo que la base de datos
+ * asigne automáticamente un nuevo ID a cada nuevo registro.
+ */
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/

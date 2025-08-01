@@ -1,4 +1,40 @@
 <?php
+/**
+ * explore_recipes.php
+ *
+ * Esta página permite a los usuarios autenticados descubrir y explorar recetas creadas
+ * por otros miembros de la comunidad. Excluye las recetas del propio usuario.
+ *
+ * Lógica principal:
+ * 1.  Protección de la Página: Al igual que el dashboard, verifica que el usuario
+ *     haya iniciado sesión. Si no, lo redirige al login.
+ * 2.  Carga de Categorías: Obtiene todas las categorías de la base de datos para
+ *     poblar el menú de filtro, permitiendo a los usuarios buscar por tipo de plato.
+ * 3.  Lógica de Búsqueda y Filtrado:
+ *     a. Recoge los parámetros `search` y `category` de la URL (GET).
+ *     b. Construye una consulta SQL dinámica para buscar recetas.
+ *     c. La consulta base hace un `JOIN` entre `recetas` y `usuarios` para poder
+ *        mostrar el nombre del autor de cada receta.
+ *     d. La condición `WHERE r.id_usuario != ?` es fundamental: excluye las recetas
+ *        del usuario que está realizando la búsqueda, para que solo vea las de otros.
+ *     e. Si se selecciona una categoría, se añade un `JOIN` y una condición `AND` para
+ *        filtrar por `id_categoria`.
+ *     f. Si se introduce un término de búsqueda, la consulta busca coincidencias en
+ *        el nombre de la receta, ingredientes, preparación y también en el nombre
+ *        del autor (`u.nombre_usuario`).
+ *     g. Se utilizan consultas preparadas para garantizar la seguridad.
+ * 4.  Visualización (HTML):
+ *     a. Muestra un formulario de búsqueda y filtro similar al del dashboard.
+ *     b. Si no se encuentran recetas, muestra un mensaje indicándolo.
+ *     c. Si hay recetas, las presenta en una cuadrícula (`recipes-grid`).
+ *        - Cada tarjeta de receta (`recipe-card`) muestra la imagen, el nombre de la
+ *          receta, el tiempo de preparación y, de forma destacada, el autor.
+ *        - A diferencia del dashboard, la única acción disponible es "Ver Receta".
+ *        - El enlace para ver la receta incluye un parámetro `&explore=1` para que la
+ *          página `view_recipe.php` sepa que el usuario viene desde la sección de
+ *          exploración y pueda mostrar un botón de "Volver a Explorar".
+ */
+
 $page_title = "Explorar Recetas";
 require_once '../includes/header.php';
 

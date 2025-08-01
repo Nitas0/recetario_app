@@ -1,5 +1,25 @@
 <?php
-// db_connect.php
+/**
+ * db_connect.php
+ *
+ * Este archivo se encarga de establecer la conexión con la base de datos MySQL
+ * utilizando la extensión PDO (PHP Data Objects).
+ *
+ * Lógica principal:
+ * 1. Detección del entorno: Comprueba si el servidor es local ('localhost' o '127.0.0.1')
+ *    o de producción para cargar las credenciales correspondientes.
+ * 2. Configuración de credenciales: Define las variables $host, $db, $user y $pass
+ *    según el entorno detectado.
+ * 3. Definición del DSN (Data Source Name): Construye la cadena de conexión para PDO.
+ * 4. Opciones de PDO: Configura atributos para el manejo de errores, el modo de obtención
+ *    de resultados (fetch mode) y la desactivación de la emulación de consultas preparadas
+ *    para mayor seguridad.
+ * 5. Intento de conexión: Utiliza un bloque try-catch para instanciar un nuevo objeto PDO.
+ * 6. Manejo de errores: Si la conexión falla, captura la PDOException, registra el error
+ *    en el log del servidor y muestra un mensaje genérico al usuario para no exponer
+ *    detalles sensibles de la conexión.
+ */
+
 // Archivo para establecer la conexión a la base de datos usando PDO
 
 // Detectar el entorno (local o producción)

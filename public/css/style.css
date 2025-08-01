@@ -1,3 +1,44 @@
+/**
+ * style.css
+ *
+ * Esta hoja de estilos contiene todas las reglas de CSS para la aplicación "Mi Recetario Online".
+ * Está estructurada de forma modular para facilitar el mantenimiento.
+ *
+ * --- ESTRUCTURA DEL ARCHIVO ---
+ * 1.  Estilos Globales: Define el comportamiento base para `html` y `body`, incluyendo
+ *     la tipografía principal (Poppins), el color de fondo con un patrón SVG sutil,
+ *     y la configuración de `box-sizing` para un modelo de caja predecible.
+ * 2.  Cabecera (.main-header): Estilos para la barra de navegación superior, incluyendo
+ *     el degradado de fondo, el logo con su tipografía especial (Pacifico) y efectos
+ *     hover, y los enlaces de navegación.
+ * 3.  Pie de Página (.main-footer): Estilos para el footer, con un fondo oscuro y texto claro.
+ * 4.  Contenedores Principales: Define un estilo base para todos los contenedores de
+ *     contenido principal (`.container`, `.dashboard-container`, etc.), dándoles un
+ *     fondo blanco, padding, bordes redondeados y sombra para un efecto de "tarjeta".
+ * 5.  Formularios: Estilos generales para todos los elementos de formulario (labels, inputs,
+ *     textareas, selects) para asegurar una apariencia consistente.
+ * 6.  Botones: Estilo base para todos los botones (`.btn`, `button`) y modificadores
+ *     de color para diferentes acciones (`.btn-danger`, `.btn-warning`, etc.). Incluye
+ *     efectos de transición y sombra para interactividad.
+ * 7.  Mensajes: Estilos para los mensajes de notificación (éxito y error), con colores
+ *     de fondo y borde distintivos para una fácil identificación.
+ * 8.  Grid de Recetas (.recipes-grid): Utiliza CSS Grid para crear un layout responsive
+ *     que muestra las tarjetas de recetas. Se ajusta automáticamente al número de columnas
+ *     según el espacio disponible.
+ * 9.  Tarjeta de Receta (.recipe-card): Estilos para las tarjetas individuales, incluyendo
+ *     la imagen, el contenido y la sección de acciones con botones.
+ * 10. Sección de Búsqueda y Filtro: Estilos para el contenedor del formulario de búsqueda
+ *     en el dashboard y la página de exploración.
+ * 11. Media Queries: Contiene reglas de CSS que se aplican en diferentes tamaños de pantalla
+ *     para asegurar que el diseño sea responsive y se vea bien en dispositivos móviles.
+ * 12. Detalles de Receta: Estilos específicos para la página de vista de detalle, como
+ *     el tamaño de la imagen principal.
+ * 13. Página de Edición de Receta: Estilos para organizar el layout de la imagen actual
+ *     y la selección de categorías en la página de edición.
+ * 14. Modal: Estilos para la ventana modal de confirmación de eliminación, incluyendo el
+ *     fondo semitransparente, el contenido del modal y la animación de aparición.
+ */
+
 /* --- Estilos Globales --- */
 html {
     box-sizing: border-box;

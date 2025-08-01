@@ -1,6 +1,45 @@
 <?php
-// public/add_recipe.php
-// Permite a los usuarios añadir nuevas recetas a la base de datos.
+/**
+ * add_recipe.php
+ *
+ * Esta página presenta un formulario para que los usuarios autenticados puedan añadir
+ * una nueva receta a su colección. También se encarga de procesar los datos de ese
+ * formulario, incluyendo la validación de campos y la subida de una imagen opcional.
+ *
+ * Lógica principal:
+ * 1.  Inclusión de Ficheros: Incluye `header.php` para la cabecera y `db_connect.php`
+ *     para la conexión a la base de datos.
+ * 2.  Control de Acceso: Verifica si el `user_id` está en la sesión. Si el usuario no está
+ *     autenticado, lo redirige a la página de login (`index.php`) con un mensaje de error.
+ * 3.  Procesamiento del Formulario (cuando se envía por POST):
+ *     a. Recogida de Datos: Obtiene los datos del formulario (`nombre_receta`, `ingredientes`, etc.)
+ *        y los limpia (ej. con `trim()`).
+ *     b. Validación: Comprueba que los campos obligatorios no estén vacíos y que los datos
+ *        numéricos (como el tiempo) sean válidos. Los errores se guardan en un array.
+ *     c. Gestión de la Imagen:
+ *        - Si se ha subido un archivo (`$_FILES['imagen']`), verifica que no haya errores.
+ *        - Crea un nombre de archivo único (`uniqid()`) para evitar colisiones.
+ *        - Valida el tipo de archivo (solo JPG, PNG, GIF) y el tamaño (máximo 5MB).
+ *        - Si la validación de la imagen es correcta, mueve el archivo del directorio temporal
+ *          al directorio definitivo (`img/`). La ruta se guarda para la base de datos.
+ *     d. Inserción en la Base de Datos:
+ *        - Si no hay errores de validación, prepara una consulta SQL `INSERT` con marcadores
+ *          de posición para prevenir inyección SQL.
+ *        - Ejecuta la consulta con los datos del formulario.
+ *        - Si la inserción es exitosa, guarda un mensaje de éxito en la sesión y redirige
+ *          al usuario a su panel (`dashboard.php`).
+ *     e. Manejo de Errores:
+ *        - Si hay errores de validación, se guardan en la sesión para mostrarlos al usuario.
+ *        - Si ocurre un error de base de datos (PDOException), se registra en el log de errores
+ *          y se muestra un mensaje genérico.
+ * 4.  Visualización del Formulario (HTML):
+ *     - Muestra un formulario con campos para el nombre, ingredientes, preparación, tiempo y un
+ *       campo de tipo `file` para la imagen.
+ *     - El atributo `enctype="multipart/form-data"` es esencial para la subida de archivos.
+ *     - Muestra los mensajes de error/éxito que puedan existir en la sesión.
+ *     - Los campos del formulario "recuerdan" los valores introducidos previamente si la
+ *       validación falló, mejorando la experiencia de usuario.
+ */
 
 $page_title = "Añadir Nueva Receta";
 require_once '../includes/header.php';

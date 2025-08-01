@@ -1,4 +1,26 @@
 <?php
+/**
+ * register.php
+ *
+ * Esta página presenta el formulario de registro para nuevos usuarios.
+ *
+ * Lógica principal:
+ * 1.  Inclusión de Cabecera: Carga el `header.php` para la estructura HTML y la
+ *     barra de navegación.
+ * 2.  Visualización de Mensajes: Comprueba si existe algún mensaje en la sesión
+ *     (por ejemplo, errores de validación del `register_process.php`) y lo muestra
+ *     al usuario. Después de mostrarlo, lo elimina para que no vuelva a aparecer.
+ * 3.  Formulario de Registro (HTML):
+ *     - Presenta un formulario que envía los datos a `register_process.php` vía POST.
+ *     - Solicita el nombre de usuario, correo electrónico, contraseña y la confirmación
+ *       de la contraseña.
+ *     - Incluye una pequeña nota sobre el requisito de longitud de la contraseña.
+ *     - Proporciona un enlace a la página de login (`index.php`) para los usuarios
+ *       que ya tienen una cuenta.
+ * 4.  Inclusión de Pie de Página: Carga el `footer.php` para cerrar el HTML y cargar
+ *     los scripts de JavaScript.
+ */
+
 $page_title = "Registro - Recetario Online";
 require_once '../includes/header.php';
 ?>

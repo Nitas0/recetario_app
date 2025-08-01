@@ -1,6 +1,44 @@
 <?php
-// public/dashboard.php
-// Página principal del usuario donde puede ver, buscar y filtrar sus recetas.
+/**
+ * dashboard.php
+ *
+ * Esta es la página principal para un usuario autenticado. Muestra una lista de sus
+ * recetas personales, permite buscarlas, filtrarlas por categoría y proporciona
+ * acciones para ver, editar o eliminar cada receta.
+ *
+ * Lógica principal:
+ * 1.  Protección de la Página: Verifica si el `user_id` existe en la sesión. Si no,
+ *     redirige al usuario a la página de login (`index.php`).
+ * 2.  Carga de Categorías: Realiza una consulta a la base de datos para obtener todas
+ *     las categorías disponibles. Estas se usarán para poblar el menú desplegable
+ *     de filtro en el formulario.
+ * 3.  Lógica de Búsqueda y Filtrado:
+ *     a. Recoge los parámetros `search` y `category` de la URL (método GET).
+ *     b. Construye una consulta SQL dinámica. La base de la consulta selecciona las
+ *        recetas del usuario actual (`WHERE r.id_usuario = ?`).
+ *     c. Si se proporciona un `category_id`, añade un `JOIN` con la tabla
+ *        `recetas_categorias` y una condición `AND` para filtrar por esa categoría.
+ *     d. Si se proporciona un `search_query`, añade condiciones `AND` con `LIKE` para
+ *        buscar el término en el nombre, los ingredientes y la preparación.
+ *     e. Utiliza consultas preparadas con un array de parámetros (`$params`) para
+ *        prevenir inyección SQL, añadiendo los valores de forma segura.
+ *     f. Ejecuta la consulta y obtiene las recetas en el array `$recetas`.
+ * 4.  Visualización (HTML):
+ *     a. Muestra un mensaje de bienvenida personalizado con el nombre de usuario.
+ *     b. Presenta un formulario de búsqueda y filtrado. Los valores de búsqueda y
+ *        categoría actuales se mantienen en los campos para una mejor UX.
+ *     c. Si no se encuentran recetas, muestra un mensaje informativo.
+ *     d. Si hay recetas, las muestra en una cuadrícula (`recipes-grid`).
+ *        - Cada receta es una "tarjeta" (`recipe-card`) que se puede arrastrar y soltar
+ *          (la funcionalidad de drag-and-drop se activa en `main.js`).
+ *        - Muestra la imagen de la receta (o una por defecto si no existe), el nombre
+ *          y el tiempo de preparación.
+ *        - Proporciona botones para "Ver", "Editar" y "Eliminar".
+ * 5.  Modal de Confirmación de Eliminación:
+ *     - Incluye un modal HTML (inicialmente oculto) para confirmar la eliminación.
+ *     - El botón "Eliminar" de cada receta activa este modal vía JavaScript (`main.js`)
+ *       pasándole el ID y el nombre de la receta.
+ */
 
 $page_title = "Mis Recetas";
 require_once '../includes/header.php';
