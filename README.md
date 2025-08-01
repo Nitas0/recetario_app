@@ -115,7 +115,7 @@ recetario_app/
 │   ├── db_connect.php              # Conexión a la base de datos
 │   ├── footer.php                  # Pie de página HTML común
 │   ├── header.php                  # Cabecera HTML común
-│   ├── recetario_db (3).sql        # Script de la base de datos (alternativo)
+
 │   └── recetario_db.sql            # Script principal de la base de datos
 ├── public/                         # Directorio público (DocumentRoot)
 │   ├── css/
