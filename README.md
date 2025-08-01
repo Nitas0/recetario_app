@@ -101,27 +101,46 @@ server {
 ## 📁 Estructura del Proyecto
 
 ```
-mi-recetario-online/
-├── includes/                   # Archivos de configuración y comunes
-│   ├── db_connect.php         # Conexión a la base de datos
-│   ├── header.php             # Cabecera común
-│   ├── footer.php             # Pie de página común
-│   └── recetario_db.sql       # Estructura de la base de datos
-├── public/                     # Directorio público (DocumentRoot)
+recetario_app/
+├── .git/                           # Repositorio de Git
+├── favicon/                        # Iconos de la aplicación
+│   ├── apple-touch-icon.png
+│   ├── favicon-96x96.png
+│   ├── favicon.ico
+│   ├── favicon.svg
+│   ├── site.webmanifest
+│   ├── web-app-manifest-192x192.png
+│   └── web-app-manifest-512x512.png
+├── includes/                       # Archivos de configuración y backend
+│   ├── db_connect.php              # Conexión a la base de datos
+│   ├── footer.php                  # Pie de página HTML común
+│   ├── header.php                  # Cabecera HTML común
+│   ├── recetario_db (3).sql        # Script de la base de datos (alternativo)
+│   └── recetario_db.sql            # Script principal de la base de datos
+├── public/                         # Directorio público (DocumentRoot)
 │   ├── css/
-│   │   └── style.css          # Estilos principales
+│   │   └── style.css               # Hoja de estilos principal
 │   ├── js/
-│   │   └── main.js            # JavaScript principal
-│   ├── img/                   # Imágenes subidas y recursos
-│   ├── index.php              # Página de login
-│   ├── dashboard.php          # Panel principal del usuario
-│   ├── add_recipe.php         # Añadir nueva receta
-│   ├── edit_recipe.php        # Editar receta existente
-│   ├── view_recipe.php        # Ver detalle de receta
-│   ├── explore_recipes.php    # Explorar recetas de otros usuarios
-│   ├── register.php           # Registro de usuarios
-│   └── ...                    # Otros archivos PHP
-└── README.md                  # Este archivo
+│   │   └── main.js                 # Scripts de JavaScript
+│   ├── img/                        # Imágenes de assets y recetas
+│   ├── uploads/                    # Directorio para subida de archivos
+│   ├── add_recipe.php              # Formulario para añadir receta
+│   ├── alter_table.php             # Script para modificar la BD (desarrollo)
+│   ├── dashboard.php               # Panel principal del usuario
+│   ├── delete_recipe.php           # Lógica para eliminar receta
+│   ├── edit_recipe.php             # Formulario para editar receta
+│   ├── explore_recipes.php         # Explorar recetas de otros usuarios
+│   ├── index.php                   # Página de inicio/login
+│   ├── login_process.php           # Lógica de login
+│   ├── logout.php                  # Cierre de sesión
+│   ├── register.php                # Página de registro
+│   ├── register_process.php        # Lógica de registro
+│   ├── save_recipe_order.php       # Guarda el orden de las recetas
+│   ├── test_db.php                 # Script de prueba de conexión a BD
+│   ├── view_recipe.php             # Vista detallada de una receta
+│   ├── dashboard_error.log         # Log de errores del panel
+│   └── debug.log                   # Log de depuración general
+└── README.md                       # Este archivo
 ```
 
 ## 🎯 Funcionalidades Detalladas
