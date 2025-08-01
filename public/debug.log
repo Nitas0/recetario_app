@@ -1,0 +1,2017 @@
+[29-Jul-2025 08:05:50 UTC] POST recibido: Array
+(
+    [id_receta] => 9
+    [nombre_receta] => FLAN DE QUESO
+    [ingredientes] => huevo y queso
+    [preparacion] => mezclar el  huevo y el  queso
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 7
+        )
+
+)
+
+[29-Jul-2025 08:05:50 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => pudin-de-crema-de-caramelo.jpg
+            [full_path] => pudin-de-crema-de-caramelo.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\phpEDFE.tmp
+            [error] => 0
+            [size] => 4756886
+        )
+
+)
+
+[29-Jul-2025 08:07:02 UTC] POST recibido: Array
+(
+    [id_receta] => 9
+    [nombre_receta] => FLAN DE QUESO
+    [ingredientes] => huevo y queso
+    [preparacion] => mezclar el  huevo y el  queso
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:07:02 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:18:43 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 1
+        )
+
+)
+
+[29-Jul-2025 08:18:43 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor.png
+            [full_path] => flor.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\phpBBF8.tmp
+            [error] => 0
+            [size] => 33124
+        )
+
+)
+
+[29-Jul-2025 08:22:09 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:22:09 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:22:35 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 8
+        )
+
+)
+
+[29-Jul-2025 08:22:35 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor-de-cerezo.png
+            [full_path] => flor-de-cerezo.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\php439A.tmp
+            [error] => 0
+            [size] => 957
+        )
+
+)
+
+[29-Jul-2025 08:29:19 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:29:19 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:29:47 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:29:47 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:30:45 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 8
+        )
+
+)
+
+[29-Jul-2025 08:30:45 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:33:26 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:33:26 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:33:53 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 8
+        )
+
+)
+
+[29-Jul-2025 08:33:53 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:34:40 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 8
+        )
+
+)
+
+[29-Jul-2025 08:34:40 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor.png
+            [full_path] => flor.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\php5771.tmp
+            [error] => 0
+            [size] => 33124
+        )
+
+)
+
+[29-Jul-2025 08:38:06 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 8
+        )
+
+)
+
+[29-Jul-2025 08:38:06 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:38:33 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 1
+        )
+
+)
+
+[29-Jul-2025 08:38:33 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:39:00 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 1
+        )
+
+)
+
+[29-Jul-2025 08:39:00 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:44:22 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:44:22 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:45:00 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+[29-Jul-2025 08:45:00 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:45:25 UTC] POST recibido: Array
+(
+    [id_receta] => 8
+    [nombre_receta] => TARTA DE QUESO DE MANGO
+    [ingredientes] => MMMMMMM
+MMMMMMM
+MMMMMM
+MMMMMM
+MMMMMM
+MMMMMMM
+MMMMMMM
+MMMMMMM
+    [preparacion] => MMMMMMMMMM MMMMMMMM MMMMMMMMM MMMM MMMMMMM MMMMMMM MMMMMM MMMMMM MMMMMMMMM MMMMMM MMMMM MMMMMMMM MMMMMMMM MMMMMM MMMMMMMM MMMMMMM MMMMMMMMMMMM MMMMM NMMMMMMM MMMMMMM MMMMM MMMM MMMMM
+    [tiempo_preparacion_minutos] => 25
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:45:25 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:45:45 UTC] POST recibido: Array
+(
+    [id_receta] => 8
+    [nombre_receta] => TARTA DE QUESO DE MANGO
+    [ingredientes] => MMMMMMM
+MMMMMMM
+MMMMMM
+MMMMMM
+MMMMMM
+MMMMMMM
+MMMMMMM
+MMMMMMM
+    [preparacion] => MMMMMMMMMM MMMMMMMM MMMMMMMMM MMMM MMMMMMM MMMMMMM MMMMMM MMMMMM MMMMMMMMM MMMMMM MMMMM MMMMMMMM MMMMMMMM MMMMMM MMMMMMMM MMMMMMM MMMMMMMMMMMM MMMMM NMMMMMMM MMMMMMM MMMMM MMMM MMMMM
+    [tiempo_preparacion_minutos] => 25
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:45:45 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:52:28 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:52:28 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:52:59 UTC] POST recibido: Array
+(
+    [id_receta] => 8
+    [nombre_receta] => TARTA DE QUESO DE MANGO
+    [ingredientes] => MMMMMMM
+MMMMMMM
+MMMMMM
+MMMMMM
+MMMMMM
+MMMMMMM
+MMMMMMM
+MMMMMMM
+    [preparacion] => MMMMMMMMMM MMMMMMMM MMMMMMMMM MMMM MMMMMMM MMMMMMM MMMMMM MMMMMM MMMMMMMMM MMMMMM MMMMM MMMMMMMM MMMMMMMM MMMMMM MMMMMMMM MMMMMMM MMMMMMMMMMMM MMMMM NMMMMMMM MMMMMMM MMMMM MMMM MMMMM
+    [tiempo_preparacion_minutos] => 25
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:52:59 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [full_path] => flan-de-postre-espanol-con-salsa-servido-en-plato-de-cerca.jpg
+            [type] => 
+            [tmp_name] => 
+            [error] => 1
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 08:53:17 UTC] POST recibido: Array
+(
+    [id_receta] => 8
+    [nombre_receta] => TARTA DE QUESO DE MANGO
+    [ingredientes] => MMMMMMM
+MMMMMMM
+MMMMMM
+MMMMMM
+MMMMMM
+MMMMMMM
+MMMMMMM
+MMMMMMM
+    [preparacion] => MMMMMMMMMM MMMMMMMM MMMMMMMMM MMMM MMMMMMM MMMMMMM MMMMMM MMMMMM MMMMMMMMM MMMMMM MMMMM MMMMMMMM MMMMMMMM MMMMMM MMMMMMMM MMMMMMM MMMMMMMMMMMM MMMMM NMMMMMMM MMMMMMM MMMMM MMMM MMMMM
+    [tiempo_preparacion_minutos] => 25
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 08:53:17 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor-de-cerezo.png
+            [full_path] => flor-de-cerezo.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\php6227.tmp
+            [error] => 0
+            [size] => 957
+        )
+
+)
+
+[29-Jul-2025 09:04:09 UTC] POST recibido: Array
+(
+    [id_receta] => 8
+    [nombre_receta] => TARTA DE QUESO DE MANGO
+    [ingredientes] => MMMMMMM
+MMMMMMM
+MMMMMM
+MMMMMM
+MMMMMM
+MMMMMMM
+MMMMMMM
+MMMMMMM
+    [preparacion] => MMMMMMMMMM MMMMMMMM MMMMMMMMM MMMM MMMMMMM MMMMMMM MMMMMM MMMMMM MMMMMMMMM MMMMMM MMMMM MMMMMMMM MMMMMMMM MMMMMM MMMMMMMM MMMMMMM MMMMMMMMMMMM MMMMM NMMMMMMM MMMMMMM MMMMM MMMM MMMMM
+    [tiempo_preparacion_minutos] => 25
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 09:04:09 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor-de-cerezo.png
+            [full_path] => flor-de-cerezo.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\php520A.tmp
+            [error] => 0
+            [size] => 957
+        )
+
+)
+
+[29-Jul-2025 09:11:46 UTC] POST recibido: Array
+(
+    [id_receta] => 8
+    [nombre_receta] => TARTA DE QUESO DE MANGO
+    [ingredientes] => MMMMMMM
+MMMMMMM
+MMMMMM
+MMMMMM
+MMMMMM
+MMMMMMM
+MMMMMMM
+MMMMMMM
+    [preparacion] => MMMMMMMMMM MMMMMMMM MMMMMMMMM MMMM MMMMMMM MMMMMMM MMMMMM MMMMMM MMMMMMMMM MMMMMM MMMMM MMMMMMMM MMMMMMMM MMMMMM MMMMMMMM MMMMMMM MMMMMMMMMMMM MMMMM NMMMMMMM MMMMMMM MMMMM MMMM MMMMM
+    [tiempo_preparacion_minutos] => 25
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 09:11:46 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor.png
+            [full_path] => flor.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\php4C4C.tmp
+            [error] => 0
+            [size] => 33124
+        )
+
+)
+
+[29-Jul-2025 09:34:52 UTC] POST recibido: Array
+(
+    [id_receta] => 9
+    [nombre_receta] => FLAN DE QUESO
+    [ingredientes] => huevo y queso
+    [preparacion] => mezclar el  huevo y el  queso
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 09:34:52 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 10:05:38 UTC] POST recibido: Array
+(
+    [id_receta] => 9
+    [nombre_receta] => FLAN DE QUESO
+    [ingredientes] => huevo y queso
+    [preparacion] => mezclar el  huevo y el  queso
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 10:05:38 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[29-Jul-2025 10:06:19 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 10:06:19 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => pudin-de-crema-de-caramelo.jpg
+            [full_path] => pudin-de-crema-de-caramelo.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\php3CD9.tmp
+            [error] => 0
+            [size] => 4756886
+        )
+
+)
+
+[29-Jul-2025 10:06:34 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => jhgjgjkhk
+    [ingredientes] => jhfkjugj
+    [preparacion] => hygjghjlk
+    [tiempo_preparacion_minutos] => 23
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 10:06:34 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor.png
+            [full_path] => flor.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\php7A12.tmp
+            [error] => 0
+            [size] => 33124
+        )
+
+)
+
+[29-Jul-2025 10:12:34 UTC] POST recibido: Array
+(
+    [id_receta] => 9
+    [nombre_receta] => FLAN DE QUESO
+    [ingredientes] => huevo, queso, leche
+    [preparacion] => mezclar el  huevo y el  queso
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[29-Jul-2025 10:12:34 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[30-Jul-2025 10:39:19 UTC] POST recibido: Array
+(
+    [id_receta] => 9
+    [nombre_receta] => CHOTO AL AJILLO
+    [ingredientes] => CHOTO, AJO, AOVE, VINO BLANCO, PIMIENTOS ROJOS SECOS, SAL, PIMIENTA
+    [preparacion] => Para medio choto se fríe una cabeza de ajo. Los dientes partidos por el centro se ponen a freír y cuando empiecen a dorarse se añade el choto hecho trocitos pequeños a fuego lento y se va removiendo de vez en cuando hasta que esté dorada la carne; entonces se le añade media botella de vino blanco y cuando empiece a hervir se vuelve a poner a fuego bajo. Salpimentar al gusto. Cuando la carne esté tierna se le añaden cuatro o cinco pimientos rojos secos (previamente lavados, pipas quitadas y dejados 5 minutos en remojo) para que hiervan junto a la carne unos 5 minutos.
+    [tiempo_preparacion_minutos] => 30
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[30-Jul-2025 10:39:19 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => choto.jpeg
+            [full_path] => choto.jpeg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\phpD217.tmp
+            [error] => 0
+            [size] => 593230
+        )
+
+)
+
+[30-Jul-2025 10:48:01 UTC] POST recibido: Array
+(
+    [id_receta] => 5
+    [nombre_receta] => ENSALADA DE CALABACÍN CON QUESO Y PIÑONES
+    [ingredientes] => CALABACÍN, QUESO AZUL O ROQUEFORT, PIÑONES, AOVE
+    [preparacion] => Se parte un calabacín tierno en rodajas finitas (verde o blanco) y se colocan extendidas en un plato como se ve en la foto. Encima de ellas se coloca una cuña de queso azul o roquefort en pequeños trozos. Después le añadimos  por encima unos piñones que previamente hemos dorado en un poco de aceite, que también añadimos.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+[30-Jul-2025 10:48:01 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => ensalada_calabacin.jpeg
+            [full_path] => ensalada_calabacin.jpeg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\phpC773.tmp
+            [error] => 0
+            [size] => 2897798
+        )
+
+)
+
+[30-Jul-2025 10:49:01 UTC] POST recibido: Array
+(
+    [id_receta] => 6
+    [nombre_receta] => ENSALADA DE PIMIENTO, TOMATE Y CEBOLLA ASADOS
+    [ingredientes] => PIMIENTO, TOMATE, CEBOLLA,
+    [preparacion] => A
+    [tiempo_preparacion_minutos] => 25
+    [categorias] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+[30-Jul-2025 10:49:01 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => ensalada_pimientopng.jpeg
+            [full_path] => ensalada_pimientopng.jpeg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\phpB1A5.tmp
+            [error] => 0
+            [size] => 2402720
+        )
+
+)
+
+[30-Jul-2025 11:11:38 UTC] POST recibido: Array
+(
+    [id_receta] => 12
+    [nombre_receta] => ESPAGUETTI A LA CARBONARA
+    [ingredientes] => HUEVO
+    [preparacion] => MMM
+    [tiempo_preparacion_minutos] => 20
+)
+
+[30-Jul-2025 11:11:38 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => ensalada_pimientopng.jpeg
+            [full_path] => ensalada_pimientopng.jpeg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\php68C0.tmp
+            [error] => 0
+            [size] => 2402720
+        )
+
+)
+
+[30-Jul-2025 18:02:56 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 12
+    [nombre_receta] => ESPAGUETTI A LA CARBONARA
+    [ingredientes] => 500 gr ESPAGUETTI, 200 gr PANCETA, 100 gr PARMESANO, 4 HUEVOS, SAL, PIMIENTA
+    [preparacion] => Mientras preparas la pasta, pon en una sartén la panceta para que se vaya haciendo. En un plato hondo pon los huevos con un poco de sal, pimienta y bate con un tenedor; cuando esté bien mezclado échale parte del parmesano y sigue dándole con el tenedor. Cuando la pasta esté lista, ponla encima de la sartén en la que has preparado la panceta y vuelca encima el plato en el que estuviste batiendo los huevos; revuelve todo unos segundos y sirve.
+    [tiempo_preparacion_minutos] => 20
+)
+
+[30-Jul-2025 18:02:56 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[30-Jul-2025 19:47:48 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 12
+    [nombre_receta] => ESPAGUETTI A LA CARBONARA
+    [ingredientes] => 500 gr ESPAGUETTI, 200 gr PANCETA, 100 gr PARMESANO, 4 HUEVOS, SAL, PIMIENTA
+    [preparacion] => Mientras preparas la pasta, pon en una sartén la panceta para que se vaya haciendo. En un plato hondo pon los huevos con un poco de sal, pimienta y bate con un tenedor; cuando esté bien mezclado échale parte del parmesano y sigue dándole con el tenedor. Cuando la pasta esté lista, ponla encima de la sartén en la que has preparado la panceta y vuelca encima el plato en el que estuviste batiendo los huevos; revuelve todo unos segundos y sirve.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[30-Jul-2025 19:47:48 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[30-Jul-2025 20:06:35 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 12
+    [nombre_receta] => ESPAGUETTI A LA CARBONARA
+    [ingredientes] => 500 gr ESPAGUETTI, 200 gr PANCETA, 100 gr PARMESANO, 4 HUEVOS, SAL, PIMIENTA
+    [preparacion] => Mientras preparas la pasta, pon en una sartén la panceta para que se vaya haciendo. En un plato hondo pon los huevos con un poco de sal, pimienta y bate con un tenedor; cuando esté bien mezclado échale parte del parmesano y sigue dándole con el tenedor. Cuando la pasta esté lista, ponla encima de la sartén en la que has preparado la panceta y vuelca encima el plato en el que estuviste batiendo los huevos; revuelve todo unos segundos y sirve.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[30-Jul-2025 20:06:35 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[30-Jul-2025 20:07:12 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 12
+    [nombre_receta] => ESPAGUETTI A LA CARBONARA
+    [ingredientes] => 500 gr ESPAGUETTI, 200 gr PANCETA, 100 gr PARMESANO, 4 HUEVOS, SAL, PIMIENTA
+    [preparacion] => Mientras preparas la pasta, pon en una sartén la panceta para que se vaya haciendo. En un plato hondo pon los huevos con un poco de sal, pimienta y bate con un tenedor; cuando esté bien mezclado échale parte del parmesano y sigue dándole con el tenedor. Cuando la pasta esté lista, ponla encima de la sartén en la que has preparado la panceta y vuelca encima el plato en el que estuviste batiendo los huevos; revuelve todo unos segundos y sirve.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[30-Jul-2025 20:07:12 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => espaguetti_carbonara.jpg
+            [full_path] => espaguetti_carbonara.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/php9iCcjs
+            [error] => 0
+            [size] => 106624
+        )
+
+)
+
+[30-Jul-2025 20:10:00 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 12
+    [nombre_receta] => ESPAGUETTI A LA CARBONARA
+    [ingredientes] => 500 gr ESPAGUETTI, 200 gr PANCETA, 100 gr PARMESANO, 4 HUEVOS, SAL, PIMIENTA
+    [preparacion] => Mientras preparas la pasta, pon en una sartén la panceta para que se vaya haciendo. En un plato hondo pon los huevos con un poco de sal, pimienta y bate con un tenedor; cuando esté bien mezclado échale parte del parmesano y sigue dándole con el tenedor. Cuando la pasta esté lista, ponla encima de la sartén en la que has preparado la panceta y vuelca encima el plato en el que estuviste batiendo los huevos; revuelve todo unos segundos y sirve.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[30-Jul-2025 20:10:00 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => espaguetti_carbonara.png
+            [full_path] => espaguetti_carbonara.png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phppKWguv
+            [error] => 0
+            [size] => 577591
+        )
+
+)
+
+[30-Jul-2025 20:42:02 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 12
+    [nombre_receta] => ESPAGUETTI A LA CARBONARA
+    [ingredientes] => 500 gr ESPAGUETTI, 200 gr PANCETA, 100 gr PARMESANO, 4 HUEVOS, SAL, PIMIENTA
+    [preparacion] => Mientras preparas la pasta, pon en una sartén la panceta para que se vaya haciendo. En un plato hondo pon los huevos con un poco de sal, pimienta y bate con un tenedor; cuando esté bien mezclado échale parte del parmesano y sigue dándole con el tenedor. Cuando la pasta esté lista, ponla encima de la sartén en la que has preparado la panceta y vuelca encima el plato en el que estuviste batiendo los huevos; revuelve todo unos segundos y sirve.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[30-Jul-2025 20:42:02 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => espaguetti_carbonara.PNG
+            [full_path] => espaguetti_carbonara.PNG
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpsDikwf
+            [error] => 0
+            [size] => 1875926
+        )
+
+)
+
+[30-Jul-2025 21:18:50 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 13
+    [nombre_receta] => PAN DE TRIGO SARRACENO AL HORNO (versión sin gluten, sin levadura)
+    [ingredientes] => 360 gramos de granos de trigo sarraceno
+360 ml de agua
+1 cucharadita de sal
+    [preparacion] => Paso 1: Remojar los granos
+Remojo rápido: Coloca los granos de trigo sarraceno en un recipiente amplio y cúbrelos con agua caliente (50–60°C). Déjalos en remojo durante 2–3 horas.
+Enjuagar y escurrir: Pasado ese tiempo, enjuágalos con agua fría y escúrrelos bien.
+Paso 2: Preparar la masa
+Procesar: Coloca los granos escurridos en una licuadora o procesador de alimentos, añade los 360 ml de agua y la sal. Tritura hasta obtener una masa espesa y homogénea.
+Reposo opcional para fermentar: Si deseas una miga más desarrollada y un sabor ligeramente ácido, puedes dejar reposar la mezcla tapada durante 12–24 horas a temperatura ambiente. (Merece la pena este paso)
+Paso 3: Preparar los moldes
+Engrasar los moldes: Prepara 4 moldes de cristal aptos para horno de aproximadamente 12 × 8 cm cada uno. Engrásalos con una mezcla de mantequilla, aceite y harina para evitar que el pan se pegue.
+Dividir la masa: Reparte la masa equitativamente entre los 4 moldes.
+Paso 4: Hornear
+Precalentar el horno: Precalienta el horno a 200°C con la función de calor superior e inferior + calor circular (símbolo: 🔲 con dos líneas, una arriba y otra abajo, y un ventilador en el centro).
+Hornear: Coloca los moldes en la bandeja del medio del horno y hornea durante 1 hora a 200°C, sin necesidad de sacar el pan del molde ni darle la vuelta.
+Paso 5: Enfriar
+Dejar enfriar: Una vez transcurrida la hora, retira los moldes del horno. Espera unos minutos, desmóldalos con cuidado y deja que los panes se enfríen completamente sobre una rejilla antes de cortarlos.
+Notas adicionales:
+Remojo eficiente: El uso de agua caliente permite reducir el tiempo de remojo de 8 horas a solo 2–3 horas.
+Textura y formato: Hacer el pan en moldes pequeños garantiza una cocción uniforme y un resultado compacto, ideal para rebanar.
+Horneado sin manipulación: Esta función de horno favorece una cocción homogénea en todo el pan sin necesidad de intervenir durante el horneado.
+Con esta versión al horno, obtendrás cuatro panes pequeños de trigo sarraceno, con corteza crujiente y miga densa. Perfectos para congelar, tostar o comer directamente.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 1
+            [1] => 8
+            [2] => 7
+            [3] => 6
+        )
+
+)
+
+[30-Jul-2025 21:18:50 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => Pan_trigo_sarraceno.JPG
+            [full_path] => Pan_trigo_sarraceno.JPG
+            [type] => image/jpeg
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpQNGEIa
+            [error] => 0
+            [size] => 1922378
+        )
+
+)
+
+[30-Jul-2025 21:20:03 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => CARRILLADA DE TERNERA
+    [ingredientes] => CARILLADA DE TERNERA, ZANAHORIA, PUERRO, PIMIENTO ROJO, AJO, VINO, SAL, AOVE
+    [preparacion] => Un kilo de carrillada de ternera hecha rodajas. Se enharina y se fríe poquito, simplemente que se sellen ambas caras y se aparta a una fuente. A continuación se parte en trocitos una zanahorias, 1 puerro, un pimiento rojo y una cabeza de ajo pelada (puede ser entera) porque todo esto se sofríe en el mismo aceite de haber sellado la carne. Una vez está el sofrito hecho, se le añade la carne, se le da unas vueltas durante un par de minutos y se le echa media botella de vino tinto o blanco y el agua suficiente hasta cubrir la carne (ahí se añade una pastilla de avecrem o se salpimentarlos al gusto) y se deja hirviendo a fuego suave, y cuando está tierna se saca la carrillada. La verdura o se deja como quede o se tritura y se echa encima de la carne. Se sirve con patatas fritas, patatas al horno o ensalada.
+    [tiempo_preparacion_minutos] => 60
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[30-Jul-2025 21:20:03 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => carrillera_ternera.png
+            [full_path] => carrillera_ternera.png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpotxhOE
+            [error] => 0
+            [size] => 1817131
+        )
+
+)
+
+[30-Jul-2025 21:37:31 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 4
+    [nombre_receta] => FLAN DE MASCARPONE EN AIRFRYER DE 1500 VATIOS
+    [ingredientes] => 100 gr mascarpone 
+100 ml leche entera
+30 gr eritritol /azúcar 
+2 huevos
+1 Cucharadita de sirope de agave/ vainilla/ otro aromatizante. 
+
+    [preparacion] => Mezcla bien todos los ingredientes, ponlo en un molde y mételo en la Airfyer.
+170º  25 minutos (en molde de aluminio)
+20 minutos (molde de cerámica)
+Tiempos aproximados, cada Airfryer es un mundo
+    [tiempo_preparacion_minutos] => 10
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[30-Jul-2025 21:37:31 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[30-Jul-2025 21:50:54 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 2
+    [nombre_receta] => Ensalada
+    [ingredientes] => tomates, lechuga, aguacates, AOVE, todo lo que quieras
+    [preparacion] => Corta todo en trozos, riega con AOVE.
+    [tiempo_preparacion_minutos] => 5
+    [categorias] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+[30-Jul-2025 21:50:54 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => ensalada_garbanzos.png
+            [full_path] => ensalada_garbanzos.png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpcZQeuh
+            [error] => 0
+            [size] => 4920316
+        )
+
+)
+
+[31-Jul-2025 07:41:54 UTC] POST recibido: Array
+(
+    [id_receta] => 14
+    [nombre_receta] => a
+    [ingredientes] => a
+    [preparacion] => a
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 07:41:54 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 08:04:35 UTC] POST recibido: Array
+(
+    [id_receta] => 15
+    [nombre_receta] => aaaaa
+    [ingredientes] => aaaa
+    [preparacion] => aaaaa
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 08:04:35 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor.png
+            [full_path] => flor.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\php86C4.tmp
+            [error] => 0
+            [size] => 33124
+        )
+
+)
+
+[31-Jul-2025 08:12:37 UTC] POST recibido: Array
+(
+    [id_receta] => 16
+    [nombre_receta] => a
+    [ingredientes] => a
+    [preparacion] => a
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 08:12:37 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor.png
+            [full_path] => flor.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\phpE0CA.tmp
+            [error] => 0
+            [size] => 33124
+        )
+
+)
+
+[31-Jul-2025 08:13:12 UTC] POST recibido: Array
+(
+    [id_receta] => 16
+    [nombre_receta] => a
+    [ingredientes] => a
+    [preparacion] => a
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 08:13:12 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => pudin-de-crema-de-caramelo.jpg
+            [full_path] => pudin-de-crema-de-caramelo.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\php6A5E.tmp
+            [error] => 0
+            [size] => 4756886
+        )
+
+)
+
+[31-Jul-2025 08:13:36 UTC] POST recibido: Array
+(
+    [id_receta] => 16
+    [nombre_receta] => a
+    [ingredientes] => a
+    [preparacion] => a
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 08:13:36 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => flor.png
+            [full_path] => flor.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\phpC88C.tmp
+            [error] => 0
+            [size] => 33124
+        )
+
+)
+
+[31-Jul-2025 08:33:18 UTC] POST recibido: Array
+(
+    [id_receta] => 16
+    [nombre_receta] => a
+    [ingredientes] => a
+    [preparacion] => a
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 08:33:18 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 08:33:32 UTC] POST recibido: Array
+(
+    [id_receta] => 16
+    [nombre_receta] => a
+    [ingredientes] => a
+    [preparacion] => a
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 08:33:32 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => pudin-de-crema-de-caramelo.jpg
+            [full_path] => pudin-de-crema-de-caramelo.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\php763.tmp
+            [error] => 0
+            [size] => 4756886
+        )
+
+)
+
+[31-Jul-2025 09:27:50 UTC] POST recibido: Array
+(
+    [id_receta] => 17
+    [nombre_receta] => a
+    [ingredientes] => a
+    [preparacion] => a
+    [tiempo_preparacion_minutos] => 6
+)
+
+[31-Jul-2025 09:27:50 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => ensalada_garbanzos_optimized_optimized_optimized_optimized_optimized.png
+            [full_path] => ensalada_garbanzos_optimized_optimized_optimized_optimized_optimized.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\phpBD97.tmp
+            [error] => 0
+            [size] => 202800
+        )
+
+)
+
+[31-Jul-2025 10:37:32 UTC] POST recibido: Array
+(
+    [id_receta] => 13
+    [nombre_receta] => PAN DE TRIGO SARRACENO AL HORNO (versión sin gluten, sin levadura)
+    [ingredientes] => 360 gramos de granos de trigo sarraceno
+360 ml de agua
+1 cucharadita de sal
+    [preparacion] => Paso 1: Remojar los granos
+Remojo rápido: Coloca los granos de trigo sarraceno en un recipiente amplio y cúbrelos con agua caliente (50–60°C). Déjalos en remojo durante 2–3 horas.
+Enjuagar y escurrir: Pasado ese tiempo, enjuágalos con agua fría y escúrrelos bien.
+Paso 2: Preparar la masa
+Procesar: Coloca los granos escurridos en una licuadora o procesador de alimentos, añade los 360 ml de agua y la sal. Tritura hasta obtener una masa espesa y homogénea.
+Reposo opcional para fermentar: Si deseas una miga más desarrollada y un sabor ligeramente ácido, puedes dejar reposar la mezcla tapada durante 12–24 horas a temperatura ambiente. (Merece la pena este paso)
+Paso 3: Preparar los moldes
+Engrasar los moldes: Prepara 4 moldes de cristal aptos para horno de aproximadamente 12 × 8 cm cada uno. Engrásalos con una mezcla de mantequilla, aceite y harina para evitar que el pan se pegue.
+Dividir la masa: Reparte la masa equitativamente entre los 4 moldes.
+Paso 4: Hornear
+Precalentar el horno: Precalienta el horno a 200°C con la función de calor superior e inferior + calor circular (símbolo: 🔲 con dos líneas, una arriba y otra abajo, y un ventilador en el centro).
+Hornear: Coloca los moldes en la bandeja del medio del horno y hornea durante 1 hora a 200°C, sin necesidad de sacar el pan del molde ni darle la vuelta.
+Paso 5: Enfriar
+Dejar enfriar: Una vez transcurrida la hora, retira los moldes del horno. Espera unos minutos, desmóldalos con cuidado y deja que los panes se enfríen completamente sobre una rejilla antes de cortarlos.
+Notas adicionales:
+Remojo eficiente: El uso de agua caliente permite reducir el tiempo de remojo de 8 horas a solo 2–3 horas.
+Textura y formato: Hacer el pan en moldes pequeños garantiza una cocción uniforme y un resultado compacto, ideal para rebanar.
+Horneado sin manipulación: Esta función de horno favorece una cocción homogénea en todo el pan sin necesidad de intervenir durante el horneado.
+Con esta versión al horno, obtendrás cuatro panes pequeños de trigo sarraceno, con corteza crujiente y miga densa. Perfectos para congelar, tostar o comer directamente.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 1
+            [1] => 8
+            [2] => 7
+            [3] => 6
+        )
+
+)
+
+[31-Jul-2025 10:37:32 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => pan_trigo_sarraceno.jpg
+            [full_path] => pan_trigo_sarraceno.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\php8C6E.tmp
+            [error] => 0
+            [size] => 311974
+        )
+
+)
+
+[31-Jul-2025 10:37:54 UTC] POST recibido: Array
+(
+    [id_receta] => 12
+    [nombre_receta] => ESPAGUETTI A LA CARBONARA
+    [ingredientes] => 500 gr ESPAGUETTI, 200 gr PANCETA, 100 gr PARMESANO, 4 HUEVOS, SAL, PIMIENTA
+    [preparacion] => Mientras preparas la pasta, pon en una sartén la panceta para que se vaya haciendo. En un plato hondo pon los huevos con un poco de sal, pimienta y bate con un tenedor; cuando esté bien mezclado échale parte del parmesano y sigue dándole con el tenedor. Cuando la pasta esté lista, ponla encima de la sartén en la que has preparado la panceta y vuelca encima el plato en el que estuviste batiendo los huevos; revuelve todo unos segundos y sirve.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[31-Jul-2025 10:37:54 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => espaguetti_carbonara.png
+            [full_path] => espaguetti_carbonara.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\phpE453.tmp
+            [error] => 0
+            [size] => 260518
+        )
+
+)
+
+[31-Jul-2025 10:38:20 UTC] POST recibido: Array
+(
+    [id_receta] => 10
+    [nombre_receta] => CARRILLADA DE TERNERA
+    [ingredientes] => CARILLADA DE TERNERA, ZANAHORIA, PUERRO, PIMIENTO ROJO, AJO, VINO, SAL, AOVE
+    [preparacion] => Un kilo de carrillada de ternera hecha rodajas. Se enharina y se fríe poquito, simplemente que se sellen ambas caras y se aparta a una fuente. A continuación se parte en trocitos una zanahorias, 1 puerro, un pimiento rojo y una cabeza de ajo pelada (puede ser entera) porque todo esto se sofríe en el mismo aceite de haber sellado la carne. Una vez está el sofrito hecho, se le añade la carne, se le da unas vueltas durante un par de minutos y se le echa media botella de vino tinto o blanco y el agua suficiente hasta cubrir la carne (ahí se añade una pastilla de avecrem o se salpimentarlos al gusto) y se deja hirviendo a fuego suave, y cuando está tierna se saca la carrillada. La verdura o se deja como quede o se tritura y se echa encima de la carne. Se sirve con patatas fritas, patatas al horno o ensalada.
+    [tiempo_preparacion_minutos] => 60
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[31-Jul-2025 10:38:20 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => carrillera_ternera.png
+            [full_path] => carrillera_ternera.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\php4A04.tmp
+            [error] => 0
+            [size] => 204024
+        )
+
+)
+
+[31-Jul-2025 10:38:37 UTC] POST recibido: Array
+(
+    [id_receta] => 9
+    [nombre_receta] => CHOTO AL AJILLO
+    [ingredientes] => CHOTO, AJO, AOVE, VINO BLANCO, PIMIENTOS ROJOS SECOS, SAL, PIMIENTA
+    [preparacion] => Para medio choto se fríe una cabeza de ajo. Los dientes partidos por el centro se ponen a freír y cuando empiecen a dorarse se añade el choto hecho trocitos pequeños a fuego lento y se va removiendo de vez en cuando hasta que esté dorada la carne; entonces se le añade media botella de vino blanco y cuando empiece a hervir se vuelve a poner a fuego bajo. Salpimentar al gusto. Cuando la carne esté tierna se le añaden cuatro o cinco pimientos rojos secos (previamente lavados, pipas quitadas y dejados 5 minutos en remojo) para que hiervan junto a la carne unos 5 minutos.
+    [tiempo_preparacion_minutos] => 30
+    [categorias] => Array
+        (
+            [0] => 2
+        )
+
+)
+
+[31-Jul-2025 10:38:37 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => choto.png
+            [full_path] => choto.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\php8AC7.tmp
+            [error] => 0
+            [size] => 196483
+        )
+
+)
+
+[31-Jul-2025 10:39:03 UTC] POST recibido: Array
+(
+    [id_receta] => 6
+    [nombre_receta] => ENSALADA DE PIMIENTO, TOMATE Y CEBOLLA ASADOS
+    [ingredientes] => PIMIENTO, TOMATE, CEBOLLA,
+    [preparacion] => A
+    [tiempo_preparacion_minutos] => 25
+    [categorias] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+[31-Jul-2025 10:39:03 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => ensalada_pimiento.jpg
+            [full_path] => ensalada_pimiento.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\phpF104.tmp
+            [error] => 0
+            [size] => 263266
+        )
+
+)
+
+[31-Jul-2025 10:39:24 UTC] POST recibido: Array
+(
+    [id_receta] => 5
+    [nombre_receta] => ENSALADA DE CALABACÍN CON QUESO Y PIÑONES
+    [ingredientes] => CALABACÍN, QUESO AZUL O ROQUEFORT, PIÑONES, AOVE
+    [preparacion] => Se parte un calabacín tierno en rodajas finitas (verde o blanco) y se colocan extendidas en un plato como se ve en la foto. Encima de ellas se coloca una cuña de queso azul o roquefort en pequeños trozos. Después le añadimos  por encima unos piñones que previamente hemos dorado en un poco de aceite, que también añadimos.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+[31-Jul-2025 10:39:24 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => ensalada_calabacin.jpg
+            [full_path] => ensalada_calabacin.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\wamp64\tmp\php43C8.tmp
+            [error] => 0
+            [size] => 22689
+        )
+
+)
+
+[31-Jul-2025 10:39:53 UTC] POST recibido: Array
+(
+    [id_receta] => 2
+    [nombre_receta] => Ensalada
+    [ingredientes] => tomates, lechuga, aguacates, AOVE, todo lo que quieras
+    [preparacion] => Corta todo en trozos, riega con AOVE.
+    [tiempo_preparacion_minutos] => 5
+    [categorias] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+[31-Jul-2025 10:39:53 UTC] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => ensalada_garbanzos.png
+            [full_path] => ensalada_garbanzos.png
+            [type] => image/png
+            [tmp_name] => C:\wamp64\tmp\phpB32D.tmp
+            [error] => 0
+            [size] => 202800
+        )
+
+)
+
+[31-Jul-2025 20:19:02 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 7
+    [nombre_receta] => BACALAO DORADO
+    [ingredientes] => BACALAO
+PATATAS FAJA
+CEBOLLA
+AJO
+AOVE
+    [preparacion] => Una buena tajada de bacalao desalado. Se parte en trocitos de aproximadamente un cm y se reserva. 
+En un wok pon 3 o 4 ajos a dorar, y antes de que se doren echa una cebolla grande (si es de las dulce, mejor) o dos más pequeñas igual de troceada que el bacalao para que se fría, primero con el fuego alto y después a fuego bajo para que quede pochada (con una pizca de sal para que sude) Una vez la cebolla esté lista se le echa el bacalao desmigado bien escurrido, se sube el fuego y se remueve hasta que el bacalao esté hecho. Entonces se le añaden tres o cuatro huevos (para 2 personas) se revuelve rápidamente en la sartén y se aparta del fuego. Ahora añades unas pocas patatas paja y vuelves a mezclar todo; y luego ya en cada plato cada cual se echa más patatas paja al gusto para que quede crujiente.
+    [tiempo_preparacion_minutos] => 25
+)
+
+[31-Jul-2025 20:19:02 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 20:24:12 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 17
+    [nombre_receta] => CARRILLADA DE CERDO
+    [ingredientes] => A
+    [preparacion] => Un kilo de carrillada de cerdo. Se enharina y se fríe poquito, simplemente que se sellen ambas caras y se aparta a una fuente. A continuación se parte en trocitos una zanahorias, 1 puerro, 5 o 6 pimientos secos y una cabeza de ajo pelada (puede ser entera) porque todo esto se sofríe en el mismo aceite de haber sellado la carne. Una vez está el sofrito hecho, se le añade la carne, se le da unas vueltas durante un par de minutos y se le echa media botella de vino blanco y el agua suficiente hasta cubrir la carne (ahí se añade una pastilla de avecrem o se salpimentarlos al gusto) y se deja hirviendo a fuego suave removiendo de vez en cuando (se le añade agua si se necesita para que no se pegue al fondo, y cuando está tierna se saca la carrillada. La verdura o se deja como quede o se tritura y se echa encima de la carne. Se sirve con patatas fritas, patatas al horno o ensalada.
+    [tiempo_preparacion_minutos] => 60
+)
+
+[31-Jul-2025 20:24:12 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 20:59:13 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 7
+    [nombre_receta] => BACALAO DORADO
+    [ingredientes] => BACALAO
+PATATAS FAJA
+CEBOLLA
+AJO
+AOVE
+    [preparacion] => Una buena tajada de bacalao desalado. Se parte en trocitos de aproximadamente un cm y se reserva. 
+En un wok pon 3 o 4 ajos a dorar, y antes de que se doren echa una cebolla grande (si es de las dulce, mejor) o dos más pequeñas igual de troceada que el bacalao para que se fría, primero con el fuego alto y después a fuego bajo para que quede pochada (con una pizca de sal para que sude) Una vez la cebolla esté lista se le echa el bacalao desmigado bien escurrido, se sube el fuego y se remueve hasta que el bacalao esté hecho. Entonces se le añaden tres o cuatro huevos (para 2 personas) se revuelve rápidamente en la sartén y se aparta del fuego. Ahora añades unas pocas patatas paja y vuelves a mezclar todo; y luego ya en cada plato cada cual se echa más patatas paja al gusto para que quede crujiente.
+    [tiempo_preparacion_minutos] => 25
+)
+
+[31-Jul-2025 20:59:13 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => bacalao_dorado.png
+            [full_path] => bacalao_dorado.png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpZMTHEE
+            [error] => 0
+            [size] => 332034
+        )
+
+)
+
+[31-Jul-2025 21:00:03 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 17
+    [nombre_receta] => CARRILLADA DE CERDO
+    [ingredientes] => A
+    [preparacion] => Un kilo de carrillada de cerdo. Se enharina y se fríe poquito, simplemente que se sellen ambas caras y se aparta a una fuente. A continuación se parte en trocitos una zanahorias, 1 puerro, 5 o 6 pimientos secos y una cabeza de ajo pelada (puede ser entera) porque todo esto se sofríe en el mismo aceite de haber sellado la carne. Una vez está el sofrito hecho, se le añade la carne, se le da unas vueltas durante un par de minutos y se le echa media botella de vino blanco y el agua suficiente hasta cubrir la carne (ahí se añade una pastilla de avecrem o se salpimentarlos al gusto) y se deja hirviendo a fuego suave removiendo de vez en cuando (se le añade agua si se necesita para que no se pegue al fondo, y cuando está tierna se saca la carrillada. La verdura o se deja como quede o se tritura y se echa encima de la carne. Se sirve con patatas fritas, patatas al horno o ensalada.
+    [tiempo_preparacion_minutos] => 60
+)
+
+[31-Jul-2025 21:00:03 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => carrillera_cerdo.png
+            [full_path] => carrillera_cerdo.png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpheN7Uo
+            [error] => 0
+            [size] => 325784
+        )
+
+)
+
+[31-Jul-2025 21:07:37 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 2
+    [nombre_receta] => ENSALADA DE GARBANZOS
+    [ingredientes] => GARBANZOS, TOMATES, QUESO FETA, AGUACATES, AOVE, todo lo que quieras
+    [preparacion] => Corta todo en trozos, añade los garbanzos y riega con AOVE. Usa cualquier otra legumbre que te apetezca previamente cocida.
+    [tiempo_preparacion_minutos] => 5
+    [categorias] => Array
+        (
+            [0] => 10
+        )
+
+)
+
+[31-Jul-2025 21:07:37 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 21:38:49 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 8
+    [nombre_receta] => CHEESECAKE DE LIMÓN Y MANGO
+    [ingredientes] => 80 GR DE GALLETAS, 20 GR DE MANTEQUILLA, 300 GR DE QUESO CREMA, 150 GR DE MANGO TRITURADO, 200 ML DE NATA, 4 HUEVOS, ZUMO DE 1/2 LIMÓN, RALLADURA DE 1 LIMÓN, 60 GR DE ERITRITOL O AZÚCAR
+    [preparacion] => MOLDE 15 cm HORNO 170ºC 35 minutos
+Tritura las galletas, mezcla con la mantequilla derretida y ponlo en el fondo de un molde. en un bol mediano echa el queso crema con el mango triturado, el endulzante, el zumo del limón, la ralladura del limón y bate todo muy bien hasta que quede cremoso; añade la nata y vuelve a batir, añade los huevos y a batir de nuevo. El resultado échalo en el molde en el que habías puesto las galletas compactadas con la matequilla, y ya sólo te queda meterlo al horno. 
+    [tiempo_preparacion_minutos] => 35
+)
+
+[31-Jul-2025 21:38:49 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => cheesecake_mango.png
+            [full_path] => cheesecake_mango.png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpbBESPm
+            [error] => 0
+            [size] => 162934
+        )
+
+)
+
+[31-Jul-2025 21:40:37 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 16
+    [nombre_receta] => FLAN DE MASCARPONE EN AIRFRYER DE 1500 VATIOS
+    [ingredientes] => a
+    [preparacion] => a
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 21:40:37 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 21:41:28 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 16
+    [nombre_receta] => FLAN DE MASCARPONE EN AIRFRYER DE 1500 VATIOS
+    [ingredientes] => 100 gr mascarpone 
+100 ml leche entera
+30 gr eritritol /azúcar 
+2 huevos
+1 Cucharadita de sirope de agave/ vainilla/ otro aromatizante.
+    [preparacion] => a
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 21:41:28 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 21:42:32 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 16
+    [nombre_receta] => FLAN DE MASCARPONE EN AIRFRYER DE 1500 VATIOS
+    [ingredientes] => 100 gr mascarpone 
+100 ml leche entera
+30 gr eritritol /azúcar 
+2 huevos
+1 Cucharadita de sirope de agave/ vainilla/ otro aromatizante.
+    [preparacion] => Mezcla bien todos los ingredientes, ponlo en un molde y mételo en la Airfyer.
+170º  25 minutos (en molde de aluminio)
+20 minutos (molde de cerámica)
+Tiempos aproximados, cada Airfryer es un mundo
+    [tiempo_preparacion_minutos] => 1
+)
+
+[31-Jul-2025 21:42:32 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 21:43:07 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 16
+    [nombre_receta] => FLAN DE MASCARPONE EN AIRFRYER DE 1500 VATIOS
+    [ingredientes] => 100 gr mascarpone 
+100 ml leche entera
+30 gr eritritol /azúcar 
+2 huevos
+1 Cucharadita de sirope de agave/ vainilla/ otro aromatizante.
+    [preparacion] => Mezcla bien todos los ingredientes, ponlo en un molde y mételo en la Airfyer.
+170º  25 minutos (en molde de aluminio)
+20 minutos (molde de cerámica)
+Tiempos aproximados, cada Airfryer es un mundo
+    [tiempo_preparacion_minutos] => 15
+)
+
+[31-Jul-2025 21:43:07 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 21:45:37 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 4
+    [nombre_receta] => BIZCOCHO DE YOGURT
+    [ingredientes] => 100 gr mascarpone 
+100 ml leche entera
+30 gr eritritol /azúcar 
+2 huevos
+1 Cucharadita de sirope de agave/ vainilla/ otro aromatizante.
+    [preparacion] => Mezcla bien todos los ingredientes, ponlo en un molde y mételo en la Airfyer.
+170º  25 minutos (en molde de aluminio)
+20 minutos (molde de cerámica)
+Tiempos aproximados, cada Airfryer es un mundo
+    [tiempo_preparacion_minutos] => 10
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[31-Jul-2025 21:45:37 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => bizcocho_yogur.png
+            [full_path] => bizcocho_yogur.png
+            [type] => image/png
+            [tmp_name] => /Applications/XAMPP/xamppfiles/temp/phpyK3Ve9
+            [error] => 0
+            [size] => 299379
+        )
+
+)
+
+[31-Jul-2025 21:46:18 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 4
+    [nombre_receta] => BIZCOCHO DE YOGURT CON PEDACITOS DE CHOCOLATE
+    [ingredientes] => 100 gr mascarpone 
+100 ml leche entera
+30 gr eritritol /azúcar 
+2 huevos
+1 Cucharadita de sirope de agave/ vainilla/ otro aromatizante.
+    [preparacion] => Mezcla bien todos los ingredientes, ponlo en un molde y mételo en la Airfyer.
+170º  25 minutos (en molde de aluminio)
+20 minutos (molde de cerámica)
+Tiempos aproximados, cada Airfryer es un mundo
+    [tiempo_preparacion_minutos] => 10
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[31-Jul-2025 21:46:18 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[31-Jul-2025 21:53:28 Europe/Berlin] POST recibido: Array
+(
+    [id_receta] => 4
+    [nombre_receta] => BIZCOCHO DE YOGURT CON PEDACITOS DE CHOCOLATE
+    [ingredientes] => 2 huevos
+ 1 yogur natural (125 g)
+ 1 medida de yogur de azúcar
+ 2 medidas de yogur de harina de fuerza
+ ¾ medida de yogur de aceite de oliva
+ ½ sobre de levadura en polvo (aprox. 8 g)
+ Ralladura de limón (opcional)
+    [preparacion] => 1. Precalienta la freidora de aire a 180°C durante 5 minutos.
+2. Engrasa y enharina un molde tipo Bundt de 16 cm para evitar que el bizcocho se pegue.
+3. Bate las yemas con el azúcar hasta obtener una mezcla homogénea. 
+4. Añade el yogur y el aceite de oliva, batiendo bien hasta integrar. Si deseas, agrega la ralladura de limón. 
+5. Tamiza la harina de fuerza y la levadura y agrégalas a la mezcla, removiendo hasta que no queden grumos.
+6. Bate las claras a punto de nieve en un bol aparte y luego incorpóralas a la masa con movimientos envolventes.
+7. Vierte la mezcla en el molde y colócalo en la cesta de la freidora de aire.
+Tiempos aproximados, cada Airfryer es un mundo.
+    [tiempo_preparacion_minutos] => 20
+    [categorias] => Array
+        (
+            [0] => 4
+        )
+
+)
+
+[31-Jul-2025 21:53:28 Europe/Berlin] FILES recibido: Array
+(
+    [imagen] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+

@@ -1,0 +1,475 @@
+/* --- Estilos Globales --- */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfaf6;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e5d8c5' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: #4a4a4a;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevenir scroll horizontal */
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* --- Cabecera --- */
+.main-header {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: white;
+    padding: 15px 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-img {
+    height: 45px;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover .logo-img {
+    transform: rotate(-15deg) scale(1.1);
+}
+
+.logo-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav a:hover, .main-nav a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --- Pie de Página --- */
+.main-footer {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
+
+/* --- Contenedores Principales --- */
+.container, .dashboard-container, .form-container, .recipe-detail-container, .explore-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 980px; /* Ajustado para compensar el box-sizing */
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* --- Formularios --- */
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* --- Botones --- */
+.btn, button {
+    background: #ff7e5f;
+    color: white;
+    padding: 8px 12px; /* Reducido el padding horizontal y vertical */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px; /* Ligeramente reducido el tamaño de fuente */
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+.btn:hover, button:hover {
+    background: #e66a4f;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el ratón */
+}
+
+.btn-danger { background-color: #f44336; }
+.btn-danger:hover { background-color: #da190b; }
+.btn-info { background-color: #17a2b8; }
+.btn-info:hover { background-color: #138496; }
+.btn-warning { background-color: #ffc107; color: #333; }
+.btn-warning:hover { background-color: #e0a800; }
+.btn-cancel { background-color: #6c757d; }
+.btn-cancel:hover { background-color: #5a6268; }
+.btn-success { background-color: #28a745; }
+.btn-success:hover { background-color: #218838; }
+
+/* --- Mensajes --- */
+.message {
+    background-color: #e0f7fa;
+    color: #00796b;
+    border: 1px solid #00bcd4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.message.error {
+    background-color: #ffebee;
+    color: #d32f2f;
+    border-color: #ef5350;
+}
+
+/* --- Grid de Recetas --- */
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.recipe-card {
+    background-color: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */ /* Eliminado para evitar que los botones se corten */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.recipe-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.recipe-card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.recipe-card h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+.recipe-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px; /* Reducido el espacio entre botones */
+    margin-top: auto; /* Empuja los botones a la parte inferior */
+    flex-wrap: wrap; /* Permite que los botones se envuelvan si no hay espacio */
+    align-items: center; /* Alinea verticalmente los botones */
+}
+
+/* --- Sección de Búsqueda y Filtro --- */
+.search-filter-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.search-filter-section form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+/* --- Media Queries --- */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+
+    .container, .dashboard-container, .form-container, .recipe-detail-container, .explore-container {
+        padding: 20px;
+    }
+
+    .search-filter-section form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo-text {
+        font-size: 22px;
+    }
+
+    .logo-img {
+        height: 35px;
+    }
+
+    .main-nav a {
+        font-size: 15px;
+        padding: 8px 10px;
+    }
+
+    .container, .dashboard-container, .form-container, .recipe-detail-container, .explore-container {
+        padding: 15px 10px;
+        margin: 20px auto;
+    }
+
+    .recipes-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .recipe-card-content {
+        padding: 15px;
+    }
+
+    .recipe-card h3 {
+        font-size: 1.4em;
+    }
+
+    .image-categories-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .categorias-container {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}
+
+/* --- Recipe Detail Image --- */
+.recipe-image-full {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* --- Edit Recipe Page Styles --- */
+.image-categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.image-container {
+    flex: 1;
+    min-width: 280px; /* Ensure it doesn't get too small */
+}
+
+.image-container label {
+    margin-top: 15px;
+}
+
+.current-image {
+    max-width: 100%;
+    height: 200px; /* Fixed height for consistency */
+    object-fit: cover; /* Cover the area, cropping if necessary */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.categorias-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 2 columns, adjust min width as needed */
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.categoria-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.categoria-checkbox input[type="checkbox"] {
+    width: auto;
+    margin-bottom: 0;
+}
+
+.categoria-checkbox label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+/* --- Modal Styles --- */
+.modal {
+    position: fixed;
+    z-index: 1001; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 25px 35px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    text-align: center;
+    position: relative;
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: scale(0.9);}
+    to {opacity: 1; transform: scale(1);}
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.modal-actions .btn {
+    min-width: 100px;
+}
